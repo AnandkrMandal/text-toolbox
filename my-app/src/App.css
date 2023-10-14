@@ -1,0 +1,52 @@
+
+body{
+  background-color: #c5d3e4;
+}
+.container{
+  text-align: center;
+  margin-top: 5px;
+  
+}
+textarea{
+  margin-top: 20px;
+  height: 300px;
+  border: 1px solid rgb(19, 30, 5);
+}
+.summary{
+  text-align: center;
+}
+.about{
+  border: 1px solid rgb(92, 90, 99);
+  width: 100%;
+  height: auto;
+}
+h2{
+  text-decoration: underline;
+  text-align: center;
+  
+}
+h3{
+  margin-top: 20px;
+  text-decoration: underline;
+}
+p{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 2px;
+  font-family:'Times New Roman', Times, serif;
+}
+@media only screen and (max-width: 600px){
+.btn-primary{
+  align-content: space-between;
+  margin: 5px;
+  padding: 5px;
+  display: flexbox;
+}
+input{
+  padding: 3px;
+  margin: 5px;
+  width:70%;
+  height: 43px;
+}
+}
